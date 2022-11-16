@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "futilities"
+version = "0.0.1"
+authors = [
+  { name="Tucker Lancaster", email="tlancaster6@gatech.edu" },
+]
+description = "shared utilities for McGrath Lab projects"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tlancaster6/Futilities"
+"Bug Tracker" = "https://github.com/tlancaster6/Futilities/issues"
